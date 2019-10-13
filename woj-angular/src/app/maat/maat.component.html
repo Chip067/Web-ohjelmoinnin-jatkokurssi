@@ -1,0 +1,8 @@
+<table class="table">    
+    <th *ngFor="let key of filteredMaaKeys(maat[0])">{{key}}</th>
+    <tr *ngFor="let maa of maat" >        
+        <td *ngFor="let value of filteredMaaValues(maa)">{{value}}</td>
+    </tr>
+</table>
+
+

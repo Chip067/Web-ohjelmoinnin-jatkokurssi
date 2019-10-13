@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DateComponent } from './date/date.component';
 import { KelloComponent } from './kello/kello.component';
+import { MaatComponent } from './maat/maat.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DateComponent,
-    KelloComponent
+    KelloComponent,
+    MaatComponent
   ],
   imports: [
     BrowserModule,
